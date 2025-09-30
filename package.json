@@ -1,0 +1,23 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "homepage": "https://jookas1.github.io/VoltStack_landingPage",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build --turbopack",
+    "start": "next start"
+  },
+  "dependencies": {
+     "predeploy": "npm run build",
+     "deploy": "gh-pages -d dist",
+    "next": "15.5.4",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "gh-pages": "^6.3.0",
+    "tailwindcss": "^4"
+  }
+}
