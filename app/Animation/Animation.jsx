@@ -14,7 +14,7 @@ export default function LogoSlider() {
     </svg>,
     <img src="./ff.svg" className="translate-y-3.5" alt="ff logo" />,
     <img src="./logo.svg" alt="logo" />,
-    <img src="./logo2.svg" className="hidden md:flex" alt="logo2" />
+    <img src="./logo2.svg" className=" flex" alt="logo2" />
   ];
 
   const [index, setIndex] = useState(0);
