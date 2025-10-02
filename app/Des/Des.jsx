@@ -37,10 +37,10 @@ export default function Des() {
         </header>
         <div className='my-6 grid grid-cols-12 grid-rows-12 w-[80%]  mx-auto gap-3'>
            
-            {action? <div className='col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+            {action? <div className='col-span-12  md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 1</h4>    
-                 <p className='w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
+                 <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
                     <img src="./mins.svg" className='cursor-pointer' onClick={minus}   alt="" />
@@ -48,7 +48,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div className='col-span-6 row-span-4  bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div className='row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto flex mt-3 relative flex-col  '>
                   <h4>Question 1</h4>
                     
@@ -66,10 +66,10 @@ export default function Des() {
                      </div>
                 </div>
              </div> */}
-              <div className='col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+              <div className='col-span-12 row-span-12 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 4</h4>    
-                 <p className='w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
+                 <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
                     <img src="./mins.svg" className='cursor-pointer'    alt="" />
@@ -78,10 +78,10 @@ export default function Des() {
 
                 
             </div>
-            {first?<div className='col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+            {first?<div className='col-span-12 md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 2</h4>    
-                 <p className='w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
+                 <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
                     <img src="./mins.svg" className='cursor-pointer' onClick={minus2}   alt="" />
@@ -89,7 +89,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div className='col-span-6 row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div className='row-span-6  col-span-12 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 2</h4>
                  <div className='absolute right-0 top-1 '>
@@ -111,10 +111,10 @@ export default function Des() {
                </div>
             </div> */}
             
-                {s?<div className='col-start-1 col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+                {s?<div className='col-span-12 md:col-start-1 md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 3</h4>    
-                 <p className='w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
+                 <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
                     <img src="./mins.svg" className='cursor-pointer' onClick={minus3}   alt="" />
@@ -122,7 +122,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div className='col-start-1 col-span-6 row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div className='row-span-6 col-span-12 md:col-start-1 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 3</h4>
                 <div className='absolute right-0 top-1 '>
@@ -134,10 +134,10 @@ export default function Des() {
                 
 
 
-             {m?<div className='col-start-7 col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+             {m?<div className='col-span-12  md:col-start-7 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 5</h4>    
-                 <p className='w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
+                 <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
                     <img src="./mins.svg" className='cursor-pointer' onClick={minus4}   alt="" />
@@ -145,7 +145,7 @@ export default function Des() {
                </div>
 
                 
-            </div>: <div className='col-start-7  col-span-6 row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>: <div className='row-span-6 col-span-12 md:col-start-7  md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
                  <div className='w-[90%] mx-auto py-4 relative'>
                  <h4>Question 5</h4>
                 <div className='absolute right-0 top-3 '>
