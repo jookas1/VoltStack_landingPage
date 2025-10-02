@@ -13,7 +13,7 @@ export default function page() {
 
   return (
     <>
-   <div className='h-screen bg-[#E0E9FB]'>
+   <div className='md:h-screen bg-[#E0E9FB] py-5'>
      <Navbar/>
 
     <section className='pt-5 w-[90%]  md:w-[70%] mx-auto  '>
