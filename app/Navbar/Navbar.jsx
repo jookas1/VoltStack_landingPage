@@ -54,7 +54,7 @@ export default function Navbar() {
       </button>
     </div>
     <div className={`items-center justify-between  w-full md:flex md:w-auto md:order-1 ${isOpen?"block":"hidden"}`} id="navbar-sticky">
-      <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:bg-transparent bg-white rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700  text-center">
+      <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:bg-transparent bg-white rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   text-center">
         <li>
           <Link  href="/" className={pathname==='/'?'font-bold text-black ':'text-gray-500 ' } aria-current="page">الرئيسية</Link >
         </li>

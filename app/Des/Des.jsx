@@ -42,7 +42,7 @@ export default function Des() {
         <header className='text-center'>
             <h2 className='text-3xl font-bold'>Des questions?</h2>
         </header>
-        <div className='my-6 grid grid-cols-12 grid-rows-12 w-[80%]  mx-auto gap-3'>
+        <div className='my-6 grid grid-cols-12 md:grid-rows-[auto_auto] w-[80%]  mx-auto gap-3'>
            
             {action? <div onClick={minus} className='cursor-pointer col-span-12  md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
@@ -55,7 +55,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div onClick={plass}  className='cursor-pointer row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass}  className='cursor-pointer row-span-6 col-span-12 md:col-span-6   bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto flex mt-3 relative flex-col  '>
                   <h4>Question 1</h4>
                     
@@ -85,7 +85,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div onClick={plass5}  className='hidden md:flex cursor-pointer row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass5}  className='hidden md:flex cursor-pointer row-span-6 col-span-12 md:col-span-6   bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto flex mt-3 relative flex-col  '>
                   <h4>Question 4</h4>
                     
@@ -107,7 +107,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div onClick={plass2}  className='cursor-pointer row-span-6  col-span-12 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass2}  className='cursor-pointer row-span-6  col-span-12 md:col-span-6  bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 2</h4>
                  <div className='absolute right-0 top-1 '>
@@ -140,7 +140,7 @@ export default function Des() {
                </div>
 
                 
-            </div>:<div onClick={plass3} className='cursor-pointer row-span-6 col-span-12 md:col-start-1 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass3} className='cursor-pointer row-span-6 col-span-12 md:col-start-1 md:col-span-6  bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 3</h4>
                 <div className='absolute right-0 top-1 '>
@@ -182,7 +182,7 @@ export default function Des() {
                </div>
 
                 
-            </div>: <div onClick={plass4}  className='cursor-pointer row-span-6 col-span-12 md:col-start-7  md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>: <div onClick={plass4}  className='cursor-pointer row-span-6 col-span-12 md:col-start-7  md:col-span-6  bg-[#E6EDFC] rounded-2xl'>
                  <div className='w-[90%] mx-auto py-4 relative'>
                  <h4>Question 5</h4>
                 <div className='absolute right-0 top-3 '>
