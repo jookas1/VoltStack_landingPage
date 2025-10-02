@@ -13,7 +13,7 @@ export default function Products () {
                     <h3 className='text-lg font-bold my-3 '>توليد المحتوى (مدعوم بالذكاء الاصطناعي)</h3>
                     <p className='w-50 text-gray-400'>إنشاء عناوين ووصف وعلامات  للمنتجات (Tags)</p>
                 </div>
-                <div className='absolute top-1 left-3 bg-[#F9F8FE] rounded-br-4xl w-15 '>
+                <div className='absolute top-1 left-0 md:left-3 bg-[#F9F8FE] rounded-br-4xl w-15 '>
                     <div className='bg-blue-500 w-12 h-12 flex justify-center items-center rounded-full '>
                         <img src="./img1.svg" alt="" />
                     </div>
