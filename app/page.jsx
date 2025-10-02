@@ -7,6 +7,7 @@ import Center from './Center/Center';
 import We from './We/We';
 import Des from './Des/Des';
 import Footer from './Footer/Footer';
+import Animation from './Animation/Animation';
 "sue client"
 
 export default function page() {
@@ -34,7 +35,7 @@ export default function page() {
 
 
         </div>
-           <div className='hidden md:flex'>
+           {/* <div className='hidden md:flex'>
              <svg width="204" height="55" viewBox="0 0 204 55" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 14.0433H31.1776V19.5943H7.43884V31.0809H29.4002V36.6319H7.43884V48.6408H32.3537V54.1917H0V14.0433Z" fill="#537FE7"/>
 <path d="M37.0015 23.3583H44.4951L52.2898 47.1012L60.6037 23.3583H68.0972L56.8842 54.1636H47.7771L37.0288 23.3583H37.0015Z" fill="#537FE7"/>
@@ -55,8 +56,9 @@ export default function page() {
             <img src="./logo.svg" alt="" />
            </div>
            <div>
-            <img src="./logo2.svg" className=' hidden'   alt="" />
-           </div>
+            <img src="./logo2.svg" className=' hidden md:flex'   alt="" />
+           </div> */}
+           <div className='mx-auto'><Animation/></div>
 
 
 
@@ -71,6 +73,7 @@ export default function page() {
    <We/>
    <Des/>
    <Footer/>
+   
    
    </> 
   )

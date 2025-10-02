@@ -16,7 +16,7 @@ export default function Navbar() {
 
         
 
-<nav className="bg-[#d0ddfd] dark:bg-gray-900   rounded-lg w-[90%] mx-auto z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+<nav className="bg-[#d0ddfd]    rounded-lg w-[90%] mx-auto z-20 top-0 start-0 ">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <Link href={"/"}>  
       <svg width="199" height="26" viewBox="0 0 199 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='animate-bounce'>
