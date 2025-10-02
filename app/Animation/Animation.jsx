@@ -27,8 +27,8 @@ export default function LogoSlider() {
   }, [logos.length]);
 
   return (
-    <div className="flex items-center justify-center  ">
-      <div className="animate-fadeIn ">
+    <div className="flex items-center justify-center h-24">
+      <div className="animate-fadeIn">
         {logos[index]}
       </div>
     </div>
