@@ -16,15 +16,15 @@ export default function page() {
    <div className='h-screen bg-[#E0E9FB]'>
      <Navbar/>
 
-    <section className='pt-5  w-[70%] mx-auto  '>
-      <div className='flex mt-10 justify-around items-center bg-white pt-20 rounded-3xl '>
-        <div className='w-[50%]  '>
-          <h2 className='text-3xl font-bold w-90'> نُشغّل المستقبل بالذكاء الاصطناعي والابتكار الرقمي</h2>
-          <p  className='w-105 my-4 text-lg'>في فولتستاك، نحول الأفكار إلى واقع من خلال حلول قائمة على الذكاء الاصطناعي ومنصات تجارة إلكترونية جاهزة للإطلاق – خلال 5 أيام فقط.</p>
-            <button type="button" className=" my-2 text-white bg-[#537FE7] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 cursor-pointer">احجز اجماعات الان</button>
+    <section className='pt-5 w-[90%]  md:w-[70%] mx-auto  '>
+      <div className='md:flex mt-10 justify-around items-center bg-white pt-20 rounded-3xl '>
+        <div className=' md:w-[50%]  '>
+          <h2 className='text-3xl md:mx-0 font-bold w-90 mx-3 '> نُشغّل المستقبل بالذكاء الاصطناعي والابتكار الرقمي</h2>
+          <p  className='w-105 my-4 text-lg md:mx-0 mx-3 '>في فولتستاك، نحول الأفكار إلى واقع من خلال حلول قائمة على الذكاء الاصطناعي ومنصات تجارة إلكترونية جاهزة للإطلاق – خلال 5 أيام فقط.</p>
+            <button type="button" className="md:mx-0 mx-3  my-2 text-white bg-[#537FE7] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 cursor-pointer">احجز اجماعات الان</button>
 
         </div>
-        <div className='w-[40%] flex justify-end '>
+        <div className='md:w-[40%] flex justify-end '>
           <img src='/862c6ebb249fa03f61b15d3ddda748752913c1ce.png' className='w-80 bg-white rounded-3xl ' alt="" />
         </div>
       </div>
@@ -34,7 +34,7 @@ export default function page() {
 
 
         </div>
-           <div className=''>
+           <div className='hidden md:flex'>
              <svg width="204" height="55" viewBox="0 0 204 55" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 14.0433H31.1776V19.5943H7.43884V31.0809H29.4002V36.6319H7.43884V48.6408H32.3537V54.1917H0V14.0433Z" fill="#537FE7"/>
 <path d="M37.0015 23.3583H44.4951L52.2898 47.1012L60.6037 23.3583H68.0972L56.8842 54.1636H47.7771L37.0288 23.3583H37.0015Z" fill="#537FE7"/>
@@ -55,7 +55,7 @@ export default function page() {
             <img src="./logo.svg" alt="" />
            </div>
            <div>
-            <img src="./logo2.svg" alt="" />
+            <img src="./logo2.svg" className='hidden' alt="" />
            </div>
 
 
