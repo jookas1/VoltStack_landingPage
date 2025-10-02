@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <footer className='mt-10 py-5 bg-[#EAEFFC]'>
-        <div className= ' md:flex w-[80%] md:w-[60%]  mx-auto justify-between  py-5'>
+        <div className= ' md:flex w-[80%]  md:w-[60%]  mx-auto justify-between  py-5'>
             <div>
                 <svg width="199" height="26" viewBox="0 0 199 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='mx-auto'>
 <g clip-path="url(#clip0_74_522)">

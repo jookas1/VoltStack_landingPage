@@ -6,6 +6,7 @@ export default function Des() {
     const [first, setfirst] = useState(false)
     const [s, sets] = useState(false)
     const [m, setm] = useState(false)
+    const [f,setf]=useState(false)
     function plass(){
         setaction(true)
     }
@@ -30,6 +31,12 @@ export default function Des() {
     function minus4(){
         setm(false)
     }
+    function minus5(){
+        setf(false)
+    }
+    function plass5(){
+        setf(true)
+    }
   return (
     <section className='py-6 my-10 ' dir='ltr'>
         <header className='text-center'>
@@ -37,23 +44,23 @@ export default function Des() {
         </header>
         <div className='my-6 grid grid-cols-12 grid-rows-12 w-[80%]  mx-auto gap-3'>
            
-            {action? <div className='col-span-12  md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+            {action? <div onClick={minus} className='cursor-pointer col-span-12  md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 1</h4>    
                  <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
-                    <img src="./mins.svg" className='cursor-pointer' onClick={minus}   alt="" />
+                    <img src="./mins.svg" className='cursor-pointer'    alt="" />
                 </div>
                </div>
 
                 
-            </div>:<div className='row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass}  className='cursor-pointer row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto flex mt-3 relative flex-col  '>
                   <h4>Question 1</h4>
                     
                      <div className='absolute right-0 top-1 '>
-                         <img src="./plas.svg" className='cursor-pointer' onClick={plass}  alt="" />
+                         <img src="./plas.svg" className='cursor-pointer'   alt="" />
                      </div>
                 </div>
              </div> }
@@ -66,7 +73,8 @@ export default function Des() {
                      </div>
                 </div>
              </div> */}
-              <div className='col-span-12 row-span-12 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+            
+                 {f? <div onClick={minus5} className=' hidden md:flex cursor-pointer col-span-12 row-span-12 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 4</h4>    
                  <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
@@ -77,24 +85,34 @@ export default function Des() {
                </div>
 
                 
-            </div>
-            {first?<div className='col-span-12 md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+            </div>:<div onClick={plass5}  className='hidden md:flex cursor-pointer row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
+                <div className='w-[90%] mx-auto flex mt-3 relative flex-col  '>
+                  <h4>Question 4</h4>
+                    
+                     <div className='absolute right-0 top-1 '>
+                         <img src="./plas.svg" className='cursor-pointer'   alt="" />
+                     </div>
+                </div>
+             </div>}
+            
+             
+            {first?<div onClick={minus2} className='cursor-pointer col-span-12 md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 2</h4>    
                  <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
-                    <img src="./mins.svg" className='cursor-pointer' onClick={minus2}   alt="" />
+                    <img src="./mins.svg" className='cursor-pointer'    alt="" />
                 </div>
                </div>
 
                 
-            </div>:<div className='row-span-6  col-span-12 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass2}  className='cursor-pointer row-span-6  col-span-12 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 2</h4>
                  <div className='absolute right-0 top-1 '>
                                 
-                    <img src="./plas.svg" className='cursor-pointer' onClick={plass2}   alt="" />
+                    <img src="./plas.svg" className='cursor-pointer'   alt="" />
                 </div>
                </div>
             </div>}
@@ -111,46 +129,65 @@ export default function Des() {
                </div>
             </div> */}
             
-                {s?<div className='col-span-12 md:col-start-1 md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+                {s?<div onClick={minus3}  className='cursor-pointer col-span-12 md:col-start-1 md:col-span-6 row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 3</h4>    
                  <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
-                    <img src="./mins.svg" className='cursor-pointer' onClick={minus3}   alt="" />
+                    <img src="./mins.svg" className='cursor-pointer'   alt="" />
                 </div>
                </div>
 
                 
-            </div>:<div className='row-span-6 col-span-12 md:col-start-1 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>:<div onClick={plass3} className='cursor-pointer row-span-6 col-span-12 md:col-start-1 md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
                 <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 3</h4>
                 <div className='absolute right-0 top-1 '>
                                
-                    <img src="./plas.svg" className='cursor-pointer' onClick={plass3}   alt="" />
+                    <img src="./plas.svg" className='cursor-pointer'    alt="" />
                 </div> 
                </div>
             </div>}
                 
+                 {f? <div onClick={minus5} className=' md:hidden  cursor-pointer col-span-12 row-span-12 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+               <div className='w-[90%] mx-auto mt-3 relative'>
+                 <h4>Question 4</h4>    
+                 <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
+                <div className='absolute right-0 top-1 '>
+                                
+                    <img src="./mins.svg" className='cursor-pointer'    alt="" />
+                </div>
+               </div>
 
+                
+            </div>:<div onClick={plass5}  className='md:hidden  cursor-pointer row-span-6 col-span-12 md:col-span-6 md:row-span-4  bg-[#E6EDFC] rounded-2xl'>
+                <div className='w-[90%] mx-auto flex mt-3 relative flex-col  '>
+                  <h4>Question 4</h4>
+                    
+                     <div className='absolute right-0 top-1 '>
+                         <img src="./plas.svg" className='cursor-pointer'   alt="" />
+                     </div>
+                </div>
+             </div>}
 
-             {m?<div className='col-span-12  md:col-start-7 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
+             {m?<div onClick={minus4} className='cursor-pointer col-span-12  md:col-start-7 md:col-span-6 md:row-span-8 bg-[#E6EDFC] rounded-2xl  '>
                <div className='w-[90%] mx-auto mt-3 relative'>
                  <h4>Question 5</h4>    
                  <p className='md:w-120 felx flex-col items-end'><span className=''>Lorem ipsum dolor sit amet consectetur. Duis magna facilisis ornare</span> <span className='-translate-x-6'>est curabitur posuere adipiscing malesuada varius. Suspendisse</span> varius enim in eros elementum tristique</p>
                 <div className='absolute right-0 top-1 '>
                                 
-                    <img src="./mins.svg" className='cursor-pointer' onClick={minus4}   alt="" />
+                    <img src="./mins.svg" className='cursor-pointer'    alt="" />
                 </div>
                </div>
 
                 
-            </div>: <div className='row-span-6 col-span-12 md:col-start-7  md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
+            </div>: <div onClick={plass4}  className='cursor-pointer row-span-6 col-span-12 md:col-start-7  md:col-span-6 md:row-span-4 bg-[#E6EDFC] rounded-2xl'>
                  <div className='w-[90%] mx-auto py-4 relative'>
                  <h4>Question 5</h4>
                 <div className='absolute right-0 top-3 '>
                                
-                    <img src="./plas.svg" className='cursor-pointer' onClick={plass4}   alt="" />
+                    <img src="./plas.svg" className='cursor-pointer'   alt="" />
                 </div> 
                </div>
             </div>}

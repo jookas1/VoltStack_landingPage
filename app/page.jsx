@@ -14,7 +14,7 @@ export default function page() {
 
   return (
     <>
-   <div className='md:h-screen bg-[#E0E9FB] py-5'>
+   <div className='md:h-screen bg-[#E0E9FB] py-5 '>
      <Navbar/>
 
     <section className='pt-5 w-[90%]  md:w-[70%] mx-auto  '>
@@ -58,7 +58,7 @@ export default function page() {
            <div>
             <img src="./logo2.svg" className=' hidden md:flex'   alt="" />
            </div> */}
-           <div className='mx-auto'><Animation/></div>
+           <div className='mx-auto  '><Animation/></div>
 
 
 
