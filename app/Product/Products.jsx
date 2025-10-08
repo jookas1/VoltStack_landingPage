@@ -5,7 +5,7 @@ export default function Products () {
      <section className='py-5 mt-2 bg-[#F9F8FE] '>
       <header className=''>
         <h2 className='text-3xl font-bold mb-2 text-center'>المنتجات</h2>
-        <p className='   md:w-85 text-center  mt-3 mx-auto '><span className='font-bold  '>تحتاج لحل ذكاء اصطناعي فريد؟</span><span className='text-gray-400 '>نحن سنبنيه لك.</span> .        <p className='md:w-150 mx-auto   md:translate-x-35 text-gray-400'> فريق خبرائنا سيعمل معك عن قرب لابتكار حلول ذكاء اصطناعي مُخصصة تتناسب تمامًا مع احتياجات عملك.</p></p>.
+        <p className='   md:w-85 text-center  mt-3 mx-auto '><span className='font-bold  '> تحتاج لحل ذكاء اصطناعي فريد ؟</span><span className='text-gray-400 '> نحن  سنبنيه لك.</span> .        <p className='md:w-150 mx-auto   md:translate-x-35 text-gray-400'> فريق خبرائنا سيعمل معك عن قرب لابتكار حلول ذكاء اصطناعي مُخصصة تتناسب تمامًا مع احتياجات عملك.</p></p>.
       </header>
         <div className='grid grid-cols-12 w-[80%] mx-auto gap-2 gap-y-7'>
             <div className='col-span-12 md:col-span-4  relative '>

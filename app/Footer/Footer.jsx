@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <footer className='mt-10 py-5 bg-[#EAEFFC]'>
+    <footer className=' py-5 bg-gradient-to-br from-[#ffffff] via-[#C9D6F5] to-[#ffffff]'>
         <div className= ' md:flex w-[80%]  md:w-[60%]  mx-auto justify-between  py-5'>
             <div>
                 <svg width="199" height="26" viewBox="0 0 199 26" fill="none" xmlns="http://www.w3.org/2000/svg" className='mx-auto'>
@@ -40,8 +40,6 @@ export default function Footer() {
 
                 <div className=' my-2'>
                   <span className='text-blue-500 '>العربيه</span>
-                  <span className='mx-3'>|</span>
-                  <span>English</span>
                 </div>
                 
 

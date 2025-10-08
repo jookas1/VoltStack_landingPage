@@ -22,7 +22,7 @@ export default function LogoSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setIndex((prev) => (prev + 1) % logos.length);
-    }, 2000); // كل 2 ثانية
+    }, 2000); 
     return () => clearInterval(interval);
   }, [logos.length]);
 

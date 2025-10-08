@@ -19,13 +19,13 @@ export default function page() {
 
     <section className='pt-5 w-[90%]  md:w-[70%] mx-auto  '>
       <div className='md:flex mt-10 justify-around items-center bg-white pt-20 rounded-3xl '>
-        <div className=' md:w-[50%]  '>
+        <div className=' lg:w-[50%]  '>
           <h2 className='text-3xl md:mx-0 font-bold w-90 mx-3 '> نُشغّل المستقبل بالذكاء الاصطناعي والابتكار الرقمي</h2>
           <p  className='md:w-105 my-4 text-lg md:mx-0 mx-3 '>في فولتستاك، نحول الأفكار إلى واقع من خلال حلول قائمة على الذكاء الاصطناعي ومنصات تجارة إلكترونية جاهزة للإطلاق – خلال 5 أيام فقط.</p>
             <button type="button" className="md:mx-0 mx-3  my-2 text-white bg-[#537FE7] hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-3xl text-sm px-5 py-3 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 cursor-pointer">احجز اجماعات الان</button>
 
         </div>
-        <div className='md:w-[40%] flex justify-end '>
+        <div className='lg:w-[40%] flex justify-end '>
           <img src='/862c6ebb249fa03f61b15d3ddda748752913c1ce.png' className='w-80 bg-white rounded-3xl ' alt="" />
         </div>
       </div>
@@ -72,7 +72,7 @@ export default function page() {
    <Center/>
    <We/>
    <Des/>
-   <Footer/>
+   
    
    
    </> 
