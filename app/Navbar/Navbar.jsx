@@ -54,7 +54,7 @@ export default function Navbar() {
       </button>
     </div>
     <div className={`items-center justify-between  w-full md:flex md:w-auto md:order-1 ${isOpen?"block":"hidden"}`} id="navbar-sticky">
-      <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium md:bg-transparent bg-white rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  ">
+      <ul className="flex  flex-col p-4 md:p-0 mt-4 font-medium md:bg-transparent bg-white rounded-lg  md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0   ">
         <li>
           <Link  href="/" className={pathname==='/'?'font-bold text-black ':'text-gray-500 ' } aria-current="page">الرئيسية</Link >
           <div className= 'md:hidden  border-[1px] border-gray-300 mt-1'></div>
@@ -64,7 +64,7 @@ export default function Navbar() {
           <div className= 'md:hidden border-[1px] border-gray-300 mt-1'></div>
         </li>
         
-        <li className='mx-6'>
+        <li className='lg:mx-6'>
           <a href="التواصل" className={pathname==='/النواصل'?'font-bold text-black':'text-gray-500 ' }>التواصل</a>
           <div className= 'md:hidden border-[1px] border-gray-300 mt-1'></div>
         </li>
